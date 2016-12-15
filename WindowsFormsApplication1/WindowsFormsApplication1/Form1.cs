@@ -17,9 +17,20 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void onClick_ComputeTax(object sender, EventArgs e)
+        private void compute_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("You clicked me");
+            double price = double.Parse(tb_amount.Text);
+            double tax = double.Parse(l_tRate.Text.Split('%')[0]);
+            tb_solution.Text = ((tax / 100) * price).ToString("c");
         }
+
+        private void tb_amount_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                compute_Click(this, e);
+            }
+        }
+        
     }
 }
