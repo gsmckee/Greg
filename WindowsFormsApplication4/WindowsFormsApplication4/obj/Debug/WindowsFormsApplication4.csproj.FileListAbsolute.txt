@@ -7,3 +7,5 @@ C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\Wind
 C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
 C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\CodeWeekThree.Form1.resources
+C:\Users\CCSDuser\Desktop\Operating_system\Open-source software\GitHub\Greg\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\CodeWeekThree.Properties.Resources.resources

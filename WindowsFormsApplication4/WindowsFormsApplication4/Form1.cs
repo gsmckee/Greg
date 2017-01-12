@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication4
+namespace CodeWeekThree
 {
     public partial class Form1 : Form
     {
@@ -57,9 +57,10 @@ namespace WindowsFormsApplication4
             if (res == false)
             { 
                 tb_hlightSel.Text = String.Empty;
-                rBut_ONight = false;
-                rBut_3Day = false;
-                rBut_Standard = false;
+                rBut_ONight.Checked = false;
+                rBut_3Day.Checked = false;
+                rBut_Standard.Checked = false;
+                numUpDown.Value = 0;
 
             }
             else

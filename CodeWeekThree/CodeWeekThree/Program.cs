@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace CodeWeekThree
 {
     class Program
     {
@@ -22,7 +22,18 @@ namespace ConsoleApplication2
             // There is no need to assign an object of an "int" or other integral variable type reference.
 
             // the following line is possible because SetFName is a public method
+            // this works in previous programming languages such as c++
             p.SetFName(" Max");
+            
+            // The following line is using the property LastName, the property is nothing more than a convenient way to write a getter and/or setter 
+            // and manipulating the member variable of the class as if its public (looks like we are accessing a public member variable).
+            // this only exists in c#, not in previous programming languages.
+            p.LastName = "McKee";
+            int myInteger = 2;
+            myInteger = 3;
+            const int myOtherInteger = 3;
+            myOtherInteger = 5;
+
         }
     }
 }
